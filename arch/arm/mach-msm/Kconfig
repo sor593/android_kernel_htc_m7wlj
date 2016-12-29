@@ -2643,6 +2643,12 @@ config MACH_MONARUDO
 	help
 	  Support for the HTC APQ8064 MONARUDO.
 
+config MACH_IMPRESSION_J
+        depends on ARCH_APQ8064
+        bool "APQ8064 IMPRESSION_J"
+        help
+          Support for the HTC APQ8064 IMPRESSION_J.
+
 config MACH_DELUXE_J
         depends on ARCH_APQ8064
         bool "APQ8064 DELUXE_J"
